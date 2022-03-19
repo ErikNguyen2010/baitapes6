@@ -8,9 +8,9 @@ document.querySelector('#signup-form .actions ul li:last-child a').onclick = fun
     let html = '';
     for (let key in thongTin){
         html += `
-        <tr>
-            <td>${key}</td>
-            <td>${thongTin[key]}</td>
+        <tr style = "background-color: black; color: white">
+            <td>${key}:</td>
+            <td style = "text-align: center">${thongTin[key]}</td>
         </tr>
         `
     }
